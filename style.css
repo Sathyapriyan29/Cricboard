@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.scorecard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.match-header {
+    background-color: #03506f;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.match-header input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 22px;
+    width: 80px;
+}
+
+.match-header input:focus {
+    outline: none;
+}
+
+.teams {
+    font-size: 20px;
+}
+
+.status {
+    font-size: 14px;
+    color: #e1f5fe;
+}
+
+.score h1 {
+    margin: 10px 0 0;
+    font-size: 32px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin: 0 0 12px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+.input-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 14px;
+}
